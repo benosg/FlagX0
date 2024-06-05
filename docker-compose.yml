@@ -1,0 +1,6 @@
+﻿services:
+  flagx0.web:
+    image: flagx0.web
+    build:
+      context: .
+      dockerfile: FlagX0.Web/Dockerfile
